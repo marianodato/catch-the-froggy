@@ -8,4 +8,4 @@ repeated and so on. The goal is to find an algorithm that always allows the frog
 
 ## Proposed solution
 The solution proposed is the sequence {n-1, n-1, n-2, n-3, ..., 2, 2, 3, 4, ..., n} with n as the number of boxes. For the special case 
-of n = 1 the solution sequence is {1}.
+of n = 1 the solution sequence is {1}. You can run the source code in the [go playground](https://go.dev/play/p/mD2pnojRTKP).
