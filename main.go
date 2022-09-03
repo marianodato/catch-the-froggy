@@ -26,6 +26,8 @@ func main() {
 	return
 }
 
+// Generates the sequence {n-1, n-1, n-2, n-3, ..., 2, 2, 3, 4, ..., n} with n = numberOfBoxes
+// If numberOfBoxes == 1 the solution sequence is {1}
 func getMaximumSolutionSteps() []int {
 	if numberOfBoxes == 1 {
 		return []int{firstBoxPosition}
